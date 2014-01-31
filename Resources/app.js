@@ -1,4 +1,6 @@
+/* this repo is documenting the following http://tonylukasavage.com/ti-mocha/ */
 require('ti-mocha');
+mocha.setup({ reporter: 'ti-spec-studio' });
 
 // create a basic UI
 var win = Ti.UI.createWindow({
